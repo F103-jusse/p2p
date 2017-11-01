@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE generatorConfiguration
+        PUBLIC "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN"
+        "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd">
+
+<generatorConfiguration>
+
+    <context id="mysqlgenerator" targetRuntime="MyBatis3">
+
+        <jdbcConnection driverClass="com.mysql.jdbc.Driver"
+                        connectionURL="jdbc:mysql://120.24.241.86:3306/p2p"
+                        userId="root"
+                        password="root" />
+
+        <javaModelGenerator targetPackage="com.f103.it.pojo" targetProject="src/main/java" />
+
+        <sqlMapGenerator targetPackage="mapper" targetProject="src/main/resources"/>
+
+        <javaClientGenerator type="XMLMAPPER" targetPackage="com.f103.it.dao" targetProject="src/main/java" />
+
+        <table tableName="p2p_friend_apply_record"/>
+        <table tableName="p2p_user"/>
+        <table tableName="p2p_friend"/>
+    </context>
+
+</generatorConfiguration>

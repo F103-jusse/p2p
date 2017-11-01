@@ -1,0 +1,9 @@
+com\f103\it\dao\FriendApplyRecordMapper.class
+com\f103\it\dao\FriendMapper.class
+com\f103\it\config\DataSourceConfig.class
+com\f103\it\config\MapperScannerConfig.class
+com\f103\it\constant\SystemConstant.class
+com\f103\it\config\SessionFactoryConfig.class
+com\f103\it\constant\SystemConstant$userStatus.class
+com\f103\it\dao\UserMapper.class
+com\f103\it\constant\SystemConstant$LoginResult.class

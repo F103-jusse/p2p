@@ -1,0 +1,5 @@
+com\f103\it\service\friendApplyRecord\FriendApplyRecordService.class
+com\f103\it\service\friendApplyRecord\FriendService.class
+com\f103\it\service\user\BaseService.class
+com\f103\it\service\friendApplyRecord\BaseService.class
+com\f103\it\service\user\UserService.class

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="adapter.api" />
+        <module name="adapter.impl" />
+        <module name="core" />
+        <module name="pojo" />
+        <module name="service.api" />
+        <module name="service.impl" />
+        <module name="web" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="adapter.api" target="1.6" />
+      <module name="adapter.impl" target="1.6" />
+      <module name="core" target="1.6" />
+      <module name="facade.api" target="1.5" />
+      <module name="facade.impl" target="1.5" />
+      <module name="p2p" target="1.6" />
+      <module name="p2pcore" target="1.5" />
+      <module name="pojo" target="1.6" />
+      <module name="service.api" target="1.6" />
+      <module name="service.impl" target="1.6" />
+      <module name="web" target="1.6" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
