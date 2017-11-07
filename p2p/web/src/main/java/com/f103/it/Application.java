@@ -20,5 +20,6 @@ public class Application {
         SpringApplication.run(Application.class, args);
         //SpringApplication.run(UserController.class, args);
         System.out.println("a");
+        System.out.println("b");
     }
 }
