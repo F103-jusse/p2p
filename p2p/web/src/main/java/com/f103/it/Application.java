@@ -19,5 +19,6 @@ public class Application {
         System.out.println( "Hello World ! App!" );
         SpringApplication.run(Application.class, args);
         //SpringApplication.run(UserController.class, args);
+        System.out.println("a");
     }
 }
